@@ -20,7 +20,7 @@ const Order = () => {
   const navigation = useNavigation();
   let jsCode = `var offset = document.getElementById("SITE_HEADER").offsetHeight;
   document.getElementById("SITE_HEADER").style.display = "none";
-    document.getElementById("comp-koex8j2o").style.display = "none";
+  document.getElementById("comp-koex8j2o").style.display = "none";
   document.getElementById("PAGES_CONTAINER").style.marginTop = "-"+offset+"px";
   document.getElementById("SITE_FOOTER").style.display = "none";
   document.querySelectorAll('._2NOOQ').forEach(function (pr) {pr.classList.remove("lp5LU");pr.classList.add("_3YPxR");});`;
